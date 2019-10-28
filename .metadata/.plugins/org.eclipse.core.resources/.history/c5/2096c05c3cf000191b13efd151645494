@@ -1,0 +1,50 @@
+package com.jk.comp;
+
+import java.util.ArrayList;
+import java.util.Hashtable;
+import java.util.List;
+
+public class EmployeeDAO {
+
+	private Hashtable<String, List<EmployeeBO>> hTable = null;
+	/*private static int count = 0;*/
+
+	public List<EmployeeBO> putEmpdetailsInHashTable() {
+
+		/*count++;
+		System.out.println(count);
+		*/
+		
+		System.out.println("EmployeeDAO.putEmpdetailsInHashTable()");
+		EmployeeBO bo1, bo2, bo3 = null;
+		List<EmployeeBO> listBO = null;
+
+		bo1 = new EmployeeBO();
+		bo1.setEmpName("Jeeban");
+		bo1.setEmpAdd("Hyd");
+		bo1.setEmpAge((byte) 23);
+
+		bo2 = new EmployeeBO();
+		bo2.setEmpName("Braja");
+		bo2.setEmpAdd("Hyd");
+		bo2.setEmpAge((byte) 19);
+		
+		bo3 = new EmployeeBO();
+		bo3.setEmpName("Praveen");
+		bo3.setEmpAdd("Hyd");
+		bo3.setEmpAge((byte) 23);
+		
+		if (!hTable.containsKey("empDetails")) {
+			hTable = new Hashtable<String, List<EmployeeBO>>();
+			listBO = new ArrayList<EmployeeBO>();
+			listBO.add(bo1);
+			listBO.add(bo2);
+			listBO.add(bo3);
+			System.out.println(listBO.hashCode());
+			hTable.put("empDetails", listBO);
+		}
+		/*	System.out.println("List hash Code :: "+listBO.hashCode());*/
+			System.out.println("HashTable hash Code :: "+hTable.hashCode());
+		return (List<EmployeeBO>) hTable.get("empDetails");
+	}
+}

@@ -1,0 +1,28 @@
+package NON_STATIC_STATIC;
+public class StaticTest{
+
+    static int a=20;
+    
+    public StaticTest() {
+    	System.out.println("Test.Test()");
+		
+	}
+ 
+    static {
+    	System.out.println("Test.Static block()");
+    	int b=m1(a);
+    	System.out.println("sb");
+    	System.out.println(b);
+
+    }
+
+    public static int m1(int a){
+        System.out.println("m1(-)");
+        return a;
+    }
+
+    public static void main(String arg[]) throws Exception{
+        System.out.println("main(-)");       
+        
+    }
+}

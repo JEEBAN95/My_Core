@@ -1,0 +1,34 @@
+package NON_STATIC_STATIC;
+
+class StaticControlFlow {
+
+	static int i = m1();
+
+	public static int m1() {
+
+		System.out.println("StaticControlFlow.m1()");
+		return 10;
+	}
+
+	static int b = m2();
+	
+	private static int m2() {
+		// TODO Auto-generated method stub
+		return 10;
+	}
+}
+
+public class StaticFlowTest {
+
+	public static void main(String[] args) {
+
+		System.out.println("StaticFlowTest.main()");
+
+		int i1 = StaticControlFlow.m1();
+		int i1 = StaticControlFlow.m1();
+		System.out.println("i :" + i1);
+		System.out.println("b :" +  i2);
+
+	}
+	
+}

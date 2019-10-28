@@ -1,0 +1,6 @@
+package com.jk.classes;
+
+@FunctionalInterface
+public interface MyInterface {
+	
+}

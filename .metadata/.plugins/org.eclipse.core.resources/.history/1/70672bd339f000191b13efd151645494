@@ -1,0 +1,15 @@
+package com.jk.classes;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public final class EmployeeDAOTest2 {
+
+	public static void main(String[] args) {
+
+		EmployeeDAO2 dao = (msg, name) -> {
+			Map <String, String> map= new HashMap(); 
+		};
+		System.out.println(dao.insertRecords(" Inserting", " Employee"));
+	}
+}

@@ -1,0 +1,21 @@
+package NON_STATIC_STATIC;
+
+class A{
+	
+	int a = 10;
+	
+	
+}
+
+
+
+
+
+public class InheritedClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

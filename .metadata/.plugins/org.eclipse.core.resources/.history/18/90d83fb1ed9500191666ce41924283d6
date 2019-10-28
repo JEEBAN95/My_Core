@@ -1,0 +1,38 @@
+package NON_STATIC_STATIC;
+
+class A {
+
+	public static int a = 10;
+
+	
+	  A() { System.out.println("A.A()"); System.out.println(a); }
+	 
+
+	static {
+		System.out.println("hI");
+	}
+}
+
+class B extends A {
+	
+	public static int a = 30;
+	public static int b = 20;
+	
+	static {
+		System.out.println("Hello");
+	}
+
+}
+
+public class InheritedClass {
+
+	public static void main(String[] args) {
+		
+		new A();
+		System.out.println(B.a);
+		
+		
+
+	}
+
+}

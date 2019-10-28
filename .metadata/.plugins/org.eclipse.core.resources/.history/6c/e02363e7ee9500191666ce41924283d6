@@ -1,0 +1,48 @@
+package NON_STATIC_STATIC;
+
+class StaticControlFlow {
+
+	// intialize first //10
+
+	
+
+	static {
+
+		// System.out.println(a);
+		System.out.println("StaticControlFlow.enclosing_method()");
+	}
+	
+	StaticControlFlow() {
+		System.out.println("StaticControlFlow.StaticControlFlow()");
+		System.out.println(a);
+	}
+	
+	public static int a = m1();
+
+	public static int m1() {
+
+		System.out.println("StaticControlFlow.m1()");
+		return 10;
+	}
+
+	public static int b = m2();
+
+	public static int m2() {
+		System.out.println("StaticControlFlow.m2()");
+		return 20;
+	}
+
+}
+
+public class StaticFlowTest {
+
+	public static void main(String[] args) {
+
+		new StaticControlFlow();
+		
+//		int c = StaticControlFlow.m1();
+//		int d = StaticControlFlow.m2();
+//		System.out.println(c + "----------" + d);
+	}
+
+}

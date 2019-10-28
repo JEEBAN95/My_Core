@@ -1,0 +1,29 @@
+package NON_STATIC_STATIC;
+
+class StaticControlFlow {
+
+	public static int i = m1();
+
+	public static int m1() {
+
+		System.out.println("StaticControlFlow.m1()");
+		return 10;
+	}
+
+	public static int b = m2();
+	
+	public static int m2() {
+		System.out.println("StaticControlFlow.m2()");
+		return 20;
+	}
+}
+
+public class StaticFlowTest extends StaticControlFlow {
+
+	public static void main(String[] args) {
+
+		
+
+	}
+	
+}

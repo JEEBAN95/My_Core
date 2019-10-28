@@ -1,0 +1,12 @@
+package com.jk.classes;
+
+import java.io.Serializable;
+
+public abstract class CommonsUtil implements Cloneable, Serializable{
+
+	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}	
+}

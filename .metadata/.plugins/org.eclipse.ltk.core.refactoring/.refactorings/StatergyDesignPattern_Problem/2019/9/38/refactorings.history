@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;nit.StatergyDesignPattern_Problem&apos; to &apos;com.jk.test&apos;&#x0D;&#x0A;- Original project: &apos;StatergyDesignPattern_Problem&apos;&#x0D;&#x0A;- Original element: &apos;StatergyDesignPattern_Problem/src/main/java/nit.StatergyDesignPattern_Problem&apos;&#x0D;&#x0A;- Renamed element: &apos;StatergyDesignPattern_Problem/src/main/java/com.jk.test&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;nit.StatergyDesignPattern_Problem&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;nit.StatergyDesignPattern_Problem" name="com.jk.test" qualified="false" references="true" stamp="1568787407600" textual="false" version="1.0"/>
+</session>

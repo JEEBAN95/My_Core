@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.jk.classes&apos; to &apos;FactoryMethodDesignPattern-Solution/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;FactoryMethodDesignPattern-Problem&apos;&#x0D;&#x0A;- Destination element: &apos;FactoryMethodDesignPattern-Solution/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;FactoryMethodDesignPattern-Problem/src/main/java/com.jk.classes&apos;" description="Copy package" destination="=FactoryMethodDesignPattern-Solution/src\/main\/java" element1="/src\/main\/java&lt;com.jk.classes" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1568227703601" version="1.0"/>
+</session>

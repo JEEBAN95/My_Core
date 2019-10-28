@@ -1,0 +1,13 @@
+package nit.Proj_009_ConversonOfSystemDateToUtilDate;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}

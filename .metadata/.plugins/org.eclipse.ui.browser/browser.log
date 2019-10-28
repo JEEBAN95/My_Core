@@ -1,0 +1,14 @@
+
+Sep 07, 2019 21:41:54.19 NEW SESSION
+Sep 07, 2019 21:41:54.19 [Parent 13752, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 21:42:58.96 [Parent 13752, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 21:42:58.96 [Child 15896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 21:42:58.99 [Child 15896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 21:52:17.98 [Child 17592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 21:52:18.73 [Child 17592, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15668[Child 13516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 21:54:40.51 [Child 13516, Chrome_C[Child 18984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 21:55:10.96 [Child 18984,[Child 20848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 21:55:10.98 [Child 20848, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 21:55:12.74 [Child 10124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 22:04:12.87 [Child 10124, Chrome_Ch[Child 23508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+Sep 07, 2019 22:07:26.49 [Child 23508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromi[Child 20276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1566864336/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341

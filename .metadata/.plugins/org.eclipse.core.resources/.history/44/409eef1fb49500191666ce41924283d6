@@ -1,0 +1,27 @@
+package NON_STATIC_STATIC;
+
+public class NonStaticTest {
+	
+	int a;
+	
+	  { 
+		System.out.println("Test.NON STATIC-BLOCK");
+	  	// a=10; 
+	  }
+	 
+	
+	public void m1() {
+		a = 10;
+		System.out.println("Test-m1(): param constructor");
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		NonStaticTest t= new NonStaticTest();
+		System.out.println(t.a);
+		t.m1();
+		
+	}
+
+}

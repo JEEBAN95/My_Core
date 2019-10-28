@@ -1,0 +1,10 @@
+package com.jk.test;
+
+public class App {
+	public static void main(String[] args) {
+		
+		long ms = System.currentTimeMillis();
+		System.out.println(ms);
+		
+	}
+}
